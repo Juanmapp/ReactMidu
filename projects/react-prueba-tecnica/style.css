@@ -95,3 +95,10 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  background-color: red ;
+}
