@@ -1,9 +1,13 @@
+import { Products } from "./components/Products.jsx"
+import {products} from './mocks/products.json'
 
 function App() {
   
 
   return (
-    <h1>Shopping Cart</h1>
+
+    <Products products={products}/>
+  
   )
 }
 
