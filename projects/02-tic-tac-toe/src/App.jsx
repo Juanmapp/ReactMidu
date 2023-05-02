@@ -10,7 +10,7 @@ import { WinnerModal } from "./components/WinnerModal"
 
 
 function App() {
-// Creamos el tablero y la configuracion del mismo
+// Creamos el tablero y la configuracion del mismoe
 const [board, setBoard] = useState(Array(9).fill(null))
 // creamos los turnos y la modificacion de los mismos
 const [turn, setTurn] = useState(TURNS.X)
